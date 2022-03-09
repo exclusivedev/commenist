@@ -1,15 +1,15 @@
 <?php
 
-namespace Osem\Commenist\Http\Controllers;
+namespace ExclusiveDev\Commenist\Http\Controllers;
 
 use Auth;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller;
-use Osem\Commenist\Entity\Comment;
-use Osem\Commenist\Http\Requests\VoteRequest;
-use Osem\Commenist\UseCases\CommentService;
-use Osem\Commenist\UseCases\VoteService;
+use ExclusiveDev\Commenist\Entity\Comment;
+use ExclusiveDev\Commenist\Http\Requests\VoteRequest;
+use ExclusiveDev\Commenist\UseCases\CommentService;
+use ExclusiveDev\Commenist\UseCases\VoteService;
 
 class VoteController extends Controller
 {

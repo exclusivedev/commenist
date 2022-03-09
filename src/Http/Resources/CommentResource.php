@@ -1,9 +1,9 @@
 <?php
 
-namespace Osem\Commenist\Http\Resources;
+namespace ExclusiveDev\Commenist\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
-use Osem\Commenist\Contracts\ICommentPreprocessor;
+use ExclusiveDev\Commenist\Contracts\ICommentPreprocessor;
 
 class CommentResource extends JsonResource
 {

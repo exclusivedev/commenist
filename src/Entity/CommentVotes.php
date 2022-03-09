@@ -1,6 +1,6 @@
 <?php
 
-namespace Osem\Commenist\Entity;
+namespace ExclusiveDev\Commenist\Entity;
 
 use Illuminate\Database\Eloquent\Model;
 

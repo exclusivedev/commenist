@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Osem\Commenist\Http\Controllers\CommentsController;
-use Osem\Commenist\Http\Controllers\VoteController;
+use ExclusiveDev\Commenist\Http\Controllers\CommentsController;
+use ExclusiveDev\Commenist\Http\Controllers\VoteController;
 
 if (config('comments.route.root') !== null) {
     Route::group(['prefix' => config('comments.route.root')], static function () {

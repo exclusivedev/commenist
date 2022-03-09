@@ -1,9 +1,9 @@
 <?php
 
-namespace Osem\Commenist\Events;
+namespace ExclusiveDev\Commenist\Events;
 
 use Illuminate\Queue\SerializesModels;
-use Osem\Commenist\Entity\Comment;
+use ExclusiveDev\Commenist\Entity\Comment;
 
 class CommentDeleted
 {

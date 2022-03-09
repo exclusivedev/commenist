@@ -1,6 +1,6 @@
 <?php
 
-namespace Osem\Commenist\Http\Requests;
+namespace ExclusiveDev\Commenist\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

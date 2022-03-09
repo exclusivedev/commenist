@@ -1,9 +1,9 @@
 <?php
 
-namespace Osem\Commenist\Traits;
+namespace ExclusiveDev\Commenist\Traits;
 
-use Osem\Commenist\Entity\Comment;
-use Osem\Commenist\Entity\CommentVotes;
+use ExclusiveDev\Commenist\Entity\Comment;
+use ExclusiveDev\Commenist\Entity\CommentVotes;
 
 /**
  * Add this trait to your User model so

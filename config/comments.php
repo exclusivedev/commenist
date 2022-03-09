@@ -10,7 +10,7 @@ return [
         /**
          * Comment model
          */
-        'comment' => \Osem\Commenist\Entity\Comment::class
+        'comment' => \ExclusiveDev\Commenist\Entity\Comment::class
     ],    
     'purifier' => [
         'HTML_Allowed' => 'p',

@@ -1,6 +1,6 @@
 <?php
 
-namespace Osem\Commenist\Traits;
+namespace ExclusiveDev\Commenist\Traits;
 
 use Illuminate\Database\Eloquent\Builder;
 

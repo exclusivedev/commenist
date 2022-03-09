@@ -1,12 +1,12 @@
 <?php
 
-namespace Osem\Commenist\Http;
+namespace ExclusiveDev\Commenist\Http;
 
 use Illuminate\Support\Carbon;
-use Osem\Commenist\Contracts\Comment as CommentInterface;
-use Osem\Commenist\Contracts\ICommentable;
-use Osem\Commenist\Http\Resources\CommentResource;
-use Osem\Commenist\UseCases\CommentService;
+use ExclusiveDev\Commenist\Contracts\Comment as CommentInterface;
+use ExclusiveDev\Commenist\Contracts\ICommentable;
+use ExclusiveDev\Commenist\Http\Resources\CommentResource;
+use ExclusiveDev\Commenist\UseCases\CommentService;
 
 class CommentsHelper
 {

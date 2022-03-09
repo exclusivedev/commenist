@@ -1,6 +1,6 @@
 <?php
 
-namespace Osem\Commenist\Contracts;
+namespace ExclusiveDev\Commenist\Contracts;
 
 interface Comment
 {

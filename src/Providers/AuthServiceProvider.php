@@ -1,10 +1,10 @@
 <?php
 
-namespace Osem\Commenist\Providers;
+namespace ExclusiveDev\Commenist\Providers;
 
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Gate;
-use Osem\Commenist\Policies\CommentPolicy;
+use ExclusiveDev\Commenist\Policies\CommentPolicy;
 
 class AuthServiceProvider extends ServiceProvider
 {

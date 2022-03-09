@@ -1,10 +1,10 @@
 <?php
 
-namespace Osem\Commenist\UseCases;
+namespace ExclusiveDev\Commenist\UseCases;
 
 use DB;
-use Osem\Commenist\Contracts\Comment as CommentInterface;
-use Osem\Commenist\Entity\CommentVotes;
+use ExclusiveDev\Commenist\Contracts\Comment as CommentInterface;
+use ExclusiveDev\Commenist\Entity\CommentVotes;
 
 class VoteService
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Osem\Commenist\Policies;
+namespace ExclusiveDev\Commenist\Policies;
 
-use Osem\Commenist\Contracts\ICommentPolicy;
-use Osem\Commenist\Contracts\Comment;
+use ExclusiveDev\Commenist\Contracts\ICommentPolicy;
+use ExclusiveDev\Commenist\Contracts\Comment;
 
 class CommentPolicy implements ICommentPolicy
 {

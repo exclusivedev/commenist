@@ -1,12 +1,12 @@
 <?php
 
-namespace Osem\Commenist\Contracts;
+namespace ExclusiveDev\Commenist\Contracts;
 
 /**
  * Preprocessor class Interface
  *
  * Interface ICommentPreprocessor
- * @package Osem\Commenist\Contracts
+ * @package ExclusiveDev\Commenist\Contracts
  */
 interface ICommentPreprocessor
 {

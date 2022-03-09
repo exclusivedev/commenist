@@ -1,5 +1,5 @@
 {
-    "name": "osem/commenist",
+    "name": "exclusivedev/commenist",
     "description": "Manage User Comments Laravel Package",
     "type": "library",
     "authors": [
@@ -14,15 +14,15 @@
 
   "autoload": {
     "psr-4": {
-      "Osem\\Commenist\\": "src"
+      "ExclusiveDev\\Commenist\\": "src"
     }
   },
 
   "extra": {
       "laravel": {
           "providers": [
-            "Osem\\Commenist\\Providers\\ServiceProvider",
-	          "Osem\\Commenist\\Providers\\AuthServiceProvider"
+            "ExclusiveDev\\Commenist\\Providers\\ServiceProvider",
+	          "ExclusiveDev\\Commenist\\Providers\\AuthServiceProvider"
           ]
       }
   }

@@ -1,10 +1,10 @@
 <?php
 
-namespace Osem\Commenist\Providers;
+namespace ExclusiveDev\Commenist\Providers;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
-use Osem\Commenist\Contracts\ICommentable;
+use ExclusiveDev\Commenist\Contracts\ICommentable;
 use Illuminate\Support\Facades\Route;
 
 class ServiceProvider extends LaravelServiceProvider

@@ -1,12 +1,12 @@
 <?php
 
-namespace Osem\Commenist\Contracts;
+namespace ExclusiveDev\Commenist\Contracts;
 
 /**
  * Comment auth policy
  *
  * Interface ICommentPolicy
- * @package Osem\Commenist\Contracts
+ * @package ExclusiveDev\Commenist\Contracts
  */
 interface ICommentPolicy
 {

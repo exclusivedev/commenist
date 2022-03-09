@@ -1,10 +1,10 @@
 <?php
 
-namespace Osem\Commenist\UseCases;
+namespace ExclusiveDev\Commenist\UseCases;
 
-use Osem\Commenist\Contracts\Comment as CommentInterface;
-use Osem\Commenist\Contracts\ICommentable;
-use Osem\Commenist\Http\Requests\GetRequest;
+use ExclusiveDev\Commenist\Contracts\Comment as CommentInterface;
+use ExclusiveDev\Commenist\Contracts\ICommentable;
+use ExclusiveDev\Commenist\Http\Requests\GetRequest;
 
 class CommentService
 {

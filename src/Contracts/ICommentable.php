@@ -1,6 +1,6 @@
 <?php
 
-namespace Osem\Commenist\Contracts;
+namespace ExclusiveDev\Commenist\Contracts;
 
 use Illuminate\Database\Eloquent\Builder;
 
@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Builder;
  * Commentable model Interface
  *
  * Interface ICommentable
- * @package Osem\Commenist\Contracts
+ * @package ExclusiveDev\Commenist\Contracts
  */
 interface ICommentable
 {

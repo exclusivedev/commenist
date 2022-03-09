@@ -1,13 +1,13 @@
 <?php
 
-namespace Osem\Commenist\Entity;
+namespace ExclusiveDev\Commenist\Entity;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Osem\Commenist\Contracts\Comment as CommentInterface;
-use Osem\Commenist\Events\CommentCreated;
-use Osem\Commenist\Events\CommentDeleted;
-use Osem\Commenist\Events\CommentUpdated;
+use ExclusiveDev\Commenist\Contracts\Comment as CommentInterface;
+use ExclusiveDev\Commenist\Events\CommentCreated;
+use ExclusiveDev\Commenist\Events\CommentDeleted;
+use ExclusiveDev\Commenist\Events\CommentUpdated;
 
 class Comment extends Model implements CommentInterface
 {

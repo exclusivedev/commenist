@@ -1,19 +1,19 @@
 <?php
 
-namespace Osem\Commenist\Http\Controllers;
+namespace ExclusiveDev\Commenist\Http\Controllers;
 
 use Auth;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Osem\Commenist\Entity\Comment;
-use Osem\Commenist\Http\Requests\EditRequest;
-use Osem\Commenist\Http\Requests\GetRequest;
-use Osem\Commenist\Http\Requests\ReplyRequest;
-use Osem\Commenist\Http\Requests\SaveRequest;
-use Osem\Commenist\Http\Resources\CommentResource;
-use Osem\Commenist\UseCases\CommentService;
-use Osem\Commenist\UseCases\VoteService;
+use ExclusiveDev\Commenist\Entity\Comment;
+use ExclusiveDev\Commenist\Http\Requests\EditRequest;
+use ExclusiveDev\Commenist\Http\Requests\GetRequest;
+use ExclusiveDev\Commenist\Http\Requests\ReplyRequest;
+use ExclusiveDev\Commenist\Http\Requests\SaveRequest;
+use ExclusiveDev\Commenist\Http\Resources\CommentResource;
+use ExclusiveDev\Commenist\UseCases\CommentService;
+use ExclusiveDev\Commenist\UseCases\VoteService;
 use Illuminate\Contracts\Encryption\DecryptException;
 
 class CommentsController extends Controller
